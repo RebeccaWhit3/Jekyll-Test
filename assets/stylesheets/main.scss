@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto';
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -12,11 +12,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       rgba(245,245,245,0.8);
+$background-color: #12161b;
+$brand-color:      #fbcc40;
 
-$grey-color:       #828282;
+$grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -37,3 +37,4 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+@import "partials/fonts";
