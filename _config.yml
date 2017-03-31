@@ -25,8 +25,13 @@ github_username:  mitchellsh
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: assets/stylesheets
+  style: compressed
 gems:
   - jekyll-feed
+  - uglifier
+  - jekyll-press
 exclude:
   - Gemfile
   - Gemfile.lock
