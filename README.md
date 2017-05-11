@@ -1,1 +1,1 @@
-Do you ever wonder why we're here?
+Have you ever had a dream like this?
